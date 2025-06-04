@@ -26,8 +26,8 @@ warnings.filterwarnings('ignore')
 # ============================================================================
 
 # Input data
-FEATURE_CSV = "features_matb_enhanced.csv"  # Output from enhanced feature extraction script
-FEATURE_COLUMNS = ["beta_rel"]  # Features to use: ["alpha"], ["theta"], ["theta_alpha_ratio"], or ["alpha", "theta", "theta_alpha_ratio"]
+FEATURE_CSV = "features_matb_15s_3rd_session.csv"  # Output from enhanced feature extraction script
+FEATURE_COLUMNS = ["avg_power","spectral_centroid","peak_freq","pow_delta","log_pow_delta","pow_theta","log_pow_theta","pow_alpha","log_pow_alpha","pow_beta","log_pow_beta","pow_gamma","log_pow_gamma"]
 TARGET_COLUMN = "difficulty"  # 'easy' or 'hard'
 
 # Model settings
